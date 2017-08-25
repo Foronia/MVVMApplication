@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MVVMApplication</string>
+    <string name="url" formatted="false">http://ww4.sinaimg.cn/mw690/473fd8a7gw1f8ndq29xcsj21ho1zkkjp.jpg</string>
+
+    <string name="refreshing">正在刷新</string>
+    <string name="refresh_idle">下拉刷新</string>
+    <string name="release_refresh">释放刷新</string>
+
+    <string name="pull_load_more">上拉加载</string>
+    <string name="release_load_more">释放加载</string>
+    <string name="loading">正在加载</string>
+    <string name="no_more">已经没有更多数据</string>
+
+</resources>

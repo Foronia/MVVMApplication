@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data class=".Custom">
+        <import type="com.simple.viewModel.PersonViewModel" />
+        <variable
+            name="person"
+            type="PersonViewModel" />
+        <variable
+            name="frag"
+            type="com.simple.fragment.FragmentFirst" />
+        <variable
+            name="frags"
+            type="com.simple.fragment.FragmentSecond" />
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="@{person.click}">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{person.name}"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{String.valueOf(person.age)}"/>
+    </LinearLayout>
+</layout>
